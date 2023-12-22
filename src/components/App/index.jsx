@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid';
-import imgDark from '/images/bg-desktop-dark.jpg'
-import imgLight from '/images/bg-desktop-light.jpg'
 
 import Title from '../Title'
 import TaskInput from '../TaskInput'

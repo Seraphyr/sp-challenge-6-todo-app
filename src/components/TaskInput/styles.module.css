@@ -55,8 +55,8 @@
     background: linear-gradient( hsl(192, 100%, 67%), hsl(280, 87%, 65%));
 }
 
-.checkbox:not(:checked) {
-}
+/* .checkbox:not(:checked) {
+} */
 
 .checkbox:checked::before {
     content: url("../../public/images/icon-check.svg");
