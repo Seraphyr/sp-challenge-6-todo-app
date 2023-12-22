@@ -24,3 +24,11 @@
     transform: scale(1.7);
     translate: 9px 9px;
 }
+
+@media screen and (max-width: 375px) {
+
+    .checkbox {
+        transform: scale(0.8);
+    }
+    
+}

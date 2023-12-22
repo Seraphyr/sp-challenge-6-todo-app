@@ -19,3 +19,16 @@
 .lightFooter p {
     color: hsl(236, 9%, 61%);
 }
+
+@media screen  and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+        padding: 1rem;
+        width: 100%;
+    }
+    
+}

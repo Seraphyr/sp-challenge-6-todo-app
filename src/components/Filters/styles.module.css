@@ -19,18 +19,16 @@
     color: white;
 }
 
-.container__AllActiveCompleted{
+.container__AllActiveCompleted {
     display: flex;
     gap: 15px;
-    
+
 }
 
-.container__Clear{
-    
-}
 
 .darkFooter {
-    background-color: hwb(235 15% 76%);}
+    background-color: hwb(235 15% 76%);
+}
 
 .lightFooter {
     background-color: white;
@@ -38,4 +36,19 @@
 
 .lightFooter a {
     color: hsl(236, 9%, 61%);
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+        padding: 1rem;
+        box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
+        -webkit-box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
+        -moz-box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
+        
+    }
+   
 }

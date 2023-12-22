@@ -80,7 +80,9 @@ function App() {
   // Renderizar la interfaz de la aplicación
   return (
     <main className={`${styles.layout} ${theme === 'dark' ? styles.dark : styles.light}`}>
-      <img className={styles.background} src={theme === 'dark' ? imgDark : imgLight} alt="" />
+      <div className={`${styles.background} ${theme === 'dark' ? styles.darkImg : styles.lightImg}`}>
+        
+      </div>
       <div className={styles.content}>
         <Title theme={theme} changeTheme={changeTheme} />
         <TaskInput theme={theme} taskName={taskName} handleOnChange={handleOnChange} handleSubmit={handleSubmit} />

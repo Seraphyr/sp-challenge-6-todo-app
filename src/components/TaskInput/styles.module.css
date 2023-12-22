@@ -67,3 +67,18 @@
     translate: 0 7px;
 }
 
+@media screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 1rem;
+        margin: 1rem;
+        width: 327px;
+    }
+    .form {
+        width: 327px;
+        padding: 1rem;
+    }
+}

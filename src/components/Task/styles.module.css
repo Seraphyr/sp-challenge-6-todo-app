@@ -27,3 +27,18 @@
     background-color: white;
     color: black;
 }
+
+@media screen and (max-width: 375px) {
+    .form {
+       
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: hwb(235 15% 76%);
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+    .task {
+        width: 375px;
+    }
+}
